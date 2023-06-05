@@ -1,0 +1,77 @@
+.Header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.Header-checkout {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    justify-items: center;
+    column-gap: 10px;
+    margin: 0 0 0 .5em;
+}
+
+.Header-alert {
+    color: #33b13a;
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+.Header a {
+    text-decoration: none;
+    color: #33b1ff;
+}
+
+.Filter-section {}
+
+.Filter-section span {
+    font-weight: bold;
+    color: #333;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.Input {
+    width: 200px;
+    border: none;
+    border-bottom: 1px solid rgba(51, 177, 255, 0.5);
+}
+
+.Input:focus {
+    outline: none;
+    border-color: #33b1ff;
+    border-width: 0 0 2px 0;
+}
+
+input:focus::placeholder {
+    color: #33b1ff;
+    opacity: 0.7;
+}
+
+.Container {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 10px;
+}
+
+.vertical-bar {
+    display: flex;
+    align-items: center;
+}
+
+.vertical-bar::before {
+    content: '';
+    width: 2px;
+    height: 30px;
+    background: linear-gradient(to right, #33b1ff, #0059b3);
+    margin-right: 10px;
+}
+
+.Orders {
+    background: linear-gradient(to right, #33b1ff, #0059b3);
+    -webkit-background-clip: text;
+    font-weight: 400;
+}

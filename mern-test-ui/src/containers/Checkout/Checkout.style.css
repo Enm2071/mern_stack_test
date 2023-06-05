@@ -1,0 +1,75 @@
+.Checkout {
+    grid-template-columns: 1fr;
+    grid-gap: 2rem;
+    row-gap: 1.5em;
+    display: grid;
+    justify-content: space-between;
+}
+
+.Checkout-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Checkout-item .fas {
+    margin: 0 0 0 10px;
+    color: rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+}
+
+.Checkout-item button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.Checkout-element {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border-bottom: 1px solid #eee;
+}
+
+.Checkout-element h4 {
+    margin: 0;
+    font-weight: 400;
+}
+
+.Checkout-sidebar {
+    font-size: 18px;
+    display: flex;
+    justify-content: end;
+}
+
+.Checkout-content {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.Checkout-actions {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.Checkout-actions button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #4CAF50;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.Checkout-actions button:hover {
+    background-color: #45a049;
+}

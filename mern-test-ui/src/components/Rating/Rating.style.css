@@ -1,0 +1,29 @@
+.rating {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 4px;
+}
+
+.rating span {
+    color: #ffd700;
+    font-size: 10px;
+    margin-right: 2px;
+}
+
+.rating i {
+    transition: color 0.3s;
+    cursor: pointer;
+}
+.rating i:hover,
+.rating i:hover~i {
+    color: #ffed85;
+}
+
+.rating-label {
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #333;
+    letter-spacing: 1px;
+  }

@@ -1,0 +1,170 @@
+.Products {}
+
+.Products-items {
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    row-gap: 20px;
+    display: grid;
+}
+
+.Products-item {
+    text-decoration: none;
+    box-shadow: 8px 14px 38px rgba(39, 44, 49, .06), 1px 3px 8px rgba(39, 44, 49, .03);
+    border-radius: 5px;
+    margin: 0 0 20px 0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Product-item__description {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.Products-item img {
+    width: 100%;
+    height: 200px;
+    border-radius: 5px 5px 0 0;
+    object-fit: contain;
+}
+
+.Products-item button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 0px 0px 5px 5px;
+    border: 0px;
+    outline: 0;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.Products-item-info {
+    padding: 10px;
+}
+
+.Products-item-info h2 {
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Products-item-info h2 span {
+    color: #33b13a;
+}
+
+.Products-item-info h2 p {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+
+.overflow-dots {
+    max-height: 100px;
+    white-space: wrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.overflow-dots::after {
+    content: "...";
+    display: inline-block;
+    width: 1em;
+    overflow: visible;
+}
+
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    cursor: default;
+}
+
+.tooltip .tooltip-text {
+    visibility: hidden;
+    width: 160px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 4px;
+    padding: 8px;
+    font-size: 14px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.tooltip:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+.tooltip-description {
+    position: relative;
+    display: inline-block;
+    cursor: default;
+}
+
+.tooltip-description .tooltip-description-text {
+    visibility: hidden;
+    width: 160px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 4px;
+    padding: 8px;
+    font-size: 10px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.tooltip-description:hover .tooltip-description-text {
+    visibility: visible;
+    opacity: 1;
+}
+
+.category-span {
+    display: inline-block;
+    padding: 6px 12px;
+    background-color: #f2f2f2;
+    color: #333;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+.rating-container {
+    display: inline-block;
+    font-size: 0;
+}
+
+.rating-icon {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-color: #ffc107;
+    border-radius: 50%;
+    margin-right: 2px;
+}
+
+.rating-text {
+    display: inline-block;
+    font-size: 14px;
+    color: #333;
+    margin-left: 4px;
+}

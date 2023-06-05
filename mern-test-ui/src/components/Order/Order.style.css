@@ -1,0 +1,68 @@
+.card {
+  background-color: #f1f1f1;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.order-number {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item-count {
+  font-size: 16px;
+  color: #666666;
+  margin-bottom: 8px;
+}
+
+.total-amount {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.order-detail-button {
+  background-color: #33b1ff;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 16px;
+  width: 100%;
+}
+
+.order-detail-button:hover {
+  background-color: #1c8cd7;
+}
+
+.order-status {
+  display: inline-block;
+  padding: 6px 10px;
+  background-color: #dcdcdc;
+  color: #333;
+
+  border-radius: 4px;
+}
+
+.pending {
+  background-color: #FFC107;
+  color: #ffffff;
+}
+
+.completed {
+  background-color: #28A745;
+  color: #ffffff;
+}
+
+.cancelled {
+  background-color: #DC3545;
+  color: #ffffff;
+}

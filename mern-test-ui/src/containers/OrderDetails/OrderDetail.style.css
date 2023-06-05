@@ -1,0 +1,58 @@
+.order-details {
+  background-color: #f8f8f8;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.order-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.order-items-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 16px;
+}
+
+.order-items-table th,
+.order-items-table td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #dddddd;
+}
+
+.order-total {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.order-buttons {
+  display: flex;
+  justify-content: flex-end;
+  column-gap: 16px;
+}
+
+.order-buttons button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+}
+
+.pay-button {
+  background-color: #33b1ff;
+  color: #ffffff;
+}
+
+.cancel-button {
+  background-color: #ff3333;
+  color: #ffffff;
+}
